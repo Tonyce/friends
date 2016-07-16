@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		BED025F91CDAF00A00976AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED025F81CDAF00A00976AAE /* AppDelegate.swift */; };
-		BED025FB1CDAF00A00976AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED025FA1CDAF00A00976AAE /* ViewController.swift */; };
+		BED025FB1CDAF00A00976AAE /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED025FA1CDAF00A00976AAE /* FriendsViewController.swift */; };
 		BED025FE1CDAF00A00976AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED025FC1CDAF00A00976AAE /* Main.storyboard */; };
 		BED026001CDAF00A00976AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED025FF1CDAF00A00976AAE /* Assets.xcassets */; };
 		BED026031CDAF00A00976AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED026011CDAF00A00976AAE /* LaunchScreen.storyboard */; };
+		BED0260E1CDB526B00976AAE /* FriendsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED0260D1CDB526B00976AAE /* FriendsLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BED025F51CDAF00A00976AAE /* Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED025F81CDAF00A00976AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BED025FA1CDAF00A00976AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BED025FA1CDAF00A00976AAE /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendsViewController.swift; path = ../FriendsViewController.swift; sourceTree = "<group>"; };
 		BED025FD1CDAF00A00976AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BED025FF1CDAF00A00976AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BED026021CDAF00A00976AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BED026041CDAF00A00976AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED0260D1CDB526B00976AAE /* FriendsLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		BED025F71CDAF00A00976AAE /* Friends */ = {
 			isa = PBXGroup;
 			children = (
+				BED0260A1CDAF0F100976AAE /* index */,
 				BED025F81CDAF00A00976AAE /* AppDelegate.swift */,
-				BED025FA1CDAF00A00976AAE /* ViewController.swift */,
 				BED025FC1CDAF00A00976AAE /* Main.storyboard */,
 				BED025FF1CDAF00A00976AAE /* Assets.xcassets */,
 				BED026011CDAF00A00976AAE /* LaunchScreen.storyboard */,
 				BED026041CDAF00A00976AAE /* Info.plist */,
 			);
 			path = Friends;
+			sourceTree = "<group>";
+		};
+		BED0260A1CDAF0F100976AAE /* index */ = {
+			isa = PBXGroup;
+			children = (
+				BED025FA1CDAF00A00976AAE /* FriendsViewController.swift */,
+				BED0260D1CDB526B00976AAE /* FriendsLayout.swift */,
+			);
+			path = index;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BED025FB1CDAF00A00976AAE /* ViewController.swift in Sources */,
+				BED025FB1CDAF00A00976AAE /* FriendsViewController.swift in Sources */,
+				BED0260E1CDB526B00976AAE /* FriendsLayout.swift in Sources */,
 				BED025F91CDAF00A00976AAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
